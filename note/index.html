@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For BUBUBU</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    
+   <section class="sec-01">
+    <div class="container">
+        <h2 class="main-title">ABOUT SENGGG</h2>
+        <div class="content">
+            <div class="image">
+                <img src="image/ayg5.jpg" alt="">
+            </div>
+            <div class="text-box">
+                <h3>Cewe Capa nii kok cakep amat cii</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex aut delectus minus quae similique totam illo. Atque illum inventore optio molestias! Suscipit, laboriosam illo rerum et similique asperiores tenetur? Dolorum?</p>
+            </div>
+        </div>
+        <div class="media-icons">
+            <a href="#" class="icon"><i class="fa fa-heart"></i></a>
+            <a href="#" class="icon"><i class="fa fa-pen"></i></a>
+            <a href="#" class="icon"><i class="fa fa-book"></i></a>
+        </div>
+    </div>
+   </section>
+   <section class="sec-02">
+    <div class="container">
+        <h3 class="section-title">Slide 1</h3>
+        <div class="content">
+            <div class="image">
+                <img src="image/ayg6.jpg" alt="">
+            </div>
+            <div class="info">
+                <h4 class="info-title">WOWWW NGACENG SYA LIHAT FOTO INI</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, expedita porro. Aliquam quo obcaecati quaerat velit, similique tenetur dignissimos vitae ut veniam tempora. Amet quasi, laudantium illo modi quam itaque.</p>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section class="sec-03">
+    <div class="container">
+        <h3 class="section-title">Slide 2</h3>
+        <div class="content">
+            <div class="media-info">
+              <li><a href="#"><i class="fa fa-heart"></i> FOR UUU</a></li>
+              <li><a href="#"><i class="fa fa-pen"></i> JGN SUKA INSECUREE YAA SENG FOR U🌹🎉</a></li>
+              <li><a href="#"><i class="fa fa-book"></i> BOOK</a></li>
+              <li><a href="#"><i class="fa fa-camera"></i> CAMERA</a></li>
+            </div>
+            <div class="image">
+                <img src="image/ayg7.jpg" alt="">
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <script>
+    // scroll
+     ScrollReveal({ 
+        reset: true,
+        distance: '60px',
+        duration: 2500,
+        delay: 400
+     });
+
+     // target elemnt animation
+     ScrollReveal().reveal('.main-title, .section-title', { delay: 500, origin: 'left' });
+     ScrollReveal().reveal('.info', { delay: 600, origin: 'bottom' });
+     ScrollReveal().reveal('.text-box', { delay: 700, origin: 'right' });
+     ScrollReveal().reveal('.media-icons i', { delay: 500, origin: 'bottom', interval: 200 });
+     ScrollReveal().reveal('.media-info li', { delay: 500, origin: 'left', interval: 200 });
+   </script>
+
+</body>
+</html>

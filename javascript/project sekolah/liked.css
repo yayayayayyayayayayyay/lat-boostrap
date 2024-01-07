@@ -1,0 +1,19 @@
+h1 {
+    font-size: 20pt;
+    color: blue;
+}
+h2 {
+    font-size: 15pt;
+    color: red;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;text-indent: 0.5in;
+}
+p {
+    font-size: 14pt;font-family: Arial, Helvetica, sans-serif;text-indent: 0.5in;
+    background-color: white;
+}
+body {
+    background-color:lightblue;
+    margin-left: 0.5in;
+}
